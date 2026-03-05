@@ -35,7 +35,7 @@ export default function CasesPage() {
   return (
     <>
       {/* ── Header Section ── */}
-      <section className="bg-primary py-20 text-center px-6">
+      <section className="bg-primary py-20 sm:py-28 text-center px-6">
         <p className="text-accent text-xs uppercase tracking-widest">
           Evidence Trail
         </p>
@@ -45,13 +45,13 @@ export default function CasesPage() {
       </section>
 
       {/* ── Timeline Section ── */}
-      <section className="py-20 max-w-4xl mx-auto px-4">
+      <section className="py-20 sm:py-28 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Timeline />
       </section>
 
       {/* ── Evidence Deep Dive ── */}
-      <section className="bg-light py-20">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="bg-light py-20 sm:py-28">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-3xl font-bold text-primary text-center mb-12">
             The Evidence
           </h2>
@@ -77,7 +77,7 @@ export default function CasesPage() {
       </section>
 
       {/* ── CTA Section ── */}
-      <section className="py-20 text-center px-6">
+      <section className="py-20 sm:py-28 text-center px-6">
         <h2 className="font-serif text-3xl font-bold text-primary">
           Join the Fight for Justice
         </h2>

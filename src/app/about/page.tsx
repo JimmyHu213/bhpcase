@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <>
       {/* ── Header Section ── */}
-      <section className="bg-primary py-20 text-center text-white">
+      <section className="bg-primary py-20 sm:py-28 text-center text-white px-6">
         <p className="text-accent text-xs uppercase tracking-widest font-semibold">
           Who We Are
         </p>
@@ -20,7 +20,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Organization Profiles ── */}
-      <section className="py-20 max-w-6xl mx-auto px-4">
+      <section className="py-20 sm:py-28 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Nationlink Solutions */}
           <div>
@@ -64,8 +64,8 @@ export default function AboutPage() {
       </section>
 
       {/* ── Track Record ── */}
-      <section className="bg-light py-16">
-        <div className="max-w-4xl mx-auto px-4">
+      <section className="bg-light py-20 sm:py-28">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-2xl font-bold text-primary text-center mb-10">
             Our Track Record
           </h2>
@@ -99,7 +99,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Services Section ── */}
-      <section className="py-20 max-w-4xl mx-auto px-4">
+      <section className="py-20 sm:py-28 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="font-serif text-2xl font-bold text-primary mb-8">
           What We Provide to BHP Victims
         </h2>
@@ -123,7 +123,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── CTA Section ── */}
-      <section className="bg-primary py-20 text-center">
+      <section className="bg-primary py-20 sm:py-28 text-center px-6">
         <h2 className="font-serif text-3xl font-bold text-white">
           Ready to Join the Fight?
         </h2>

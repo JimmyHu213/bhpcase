@@ -165,7 +165,7 @@ export default function Home() {
       </section>
 
       {/* ── Brand Damage Banner ── */}
-      <section className="bg-primary py-20 px-6 text-center">
+      <section className="bg-primary py-20 sm:py-28 px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold">
             <span className="text-amber">$250 Billion Company.</span>
@@ -183,7 +183,7 @@ export default function Home() {
       </section>
 
       {/* ── Who Should Register Section ── */}
-      <section className="bg-light py-20 px-6">
+      <section className="bg-light py-20 sm:py-28 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-accent text-xs uppercase tracking-widest font-semibold">
             Take Action
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* ── Final CTA ── */}
-      <section className="bg-white py-20 px-6 text-center">
+      <section className="bg-white py-20 sm:py-28 px-6 text-center">
         <h2 className="font-serif text-3xl font-bold text-primary">
           Ready to Take Action?
         </h2>

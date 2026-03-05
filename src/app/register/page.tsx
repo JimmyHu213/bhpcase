@@ -11,7 +11,7 @@ export default function RegisterPage() {
   return (
     <>
       {/* ── Header ── */}
-      <section className="bg-primary py-20 text-center text-white">
+      <section className="bg-primary py-20 sm:py-28 text-center text-white">
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-accent text-xs uppercase tracking-widest font-semibold">
             Take Action
@@ -30,13 +30,13 @@ export default function RegisterPage() {
       </section>
 
       {/* ── Form Section ── */}
-      <section className="py-20 max-w-3xl mx-auto px-4">
+      <section className="py-20 sm:py-28 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <RegistrationForm />
       </section>
 
       {/* ── Who Should Register ── */}
-      <section className="bg-light py-16">
-        <div className="max-w-4xl mx-auto px-4">
+      <section className="bg-light py-20 sm:py-28">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-serif text-xl font-bold text-primary mb-6">
             You Should Register If:
           </h2>
