@@ -72,7 +72,7 @@ export default function AboutPage() {
         <ScrollReveal delay={0.15}>
           <p className="text-slate-body leading-relaxed mb-4">
             Through all the litigation Geoff has faced &mdash; mainly due to his
-            public stance against the bully banks for others &mdash; he has
+            public stance against the major banks for others &mdash; he has
             continued to assist and provide service to anybody who has reached
             out. This dedication has led to him being nominated for Australian
             of the Year 3 times to date.

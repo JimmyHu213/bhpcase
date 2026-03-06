@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Australia&apos;s Biggest
               <br />
-              <span className="text-amber">Wage Theft Scandal</span>
+              <span className="text-amber">Wage Theft Allegations</span>
             </h1>
           </ScrollReveal>
 
