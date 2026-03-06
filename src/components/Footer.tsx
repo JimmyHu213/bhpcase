@@ -35,7 +35,7 @@ export default function Footer() {
               Contact
             </h4>
             <p className="text-sm text-slate-400 leading-loose">
-              info@unhappybanking.com.au
+              geoff@nationlink.com.au
               <br />
               Media enquiries welcome
               <br />

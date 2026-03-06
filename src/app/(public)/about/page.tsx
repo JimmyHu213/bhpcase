@@ -121,7 +121,14 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <h2 className="font-serif text-2xl font-bold text-primary mb-6">
-              Nationlink Solutions Pty Ltd
+              <a
+                href="https://www.nationlinksolutions.com.au/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors"
+              >
+                Nationlink Solutions Pty Ltd
+              </a>
             </h2>
           </ScrollReveal>
 
