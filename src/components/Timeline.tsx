@@ -7,7 +7,7 @@ const timelineEvents = [
   {
     year: "2010+",
     title: "Casual Classification Begins",
-    desc: "BHP and labour hire firms begin systematically classifying coal miners as 'casuals' in breach of the Black Coal Award, which prohibits casual employment of coal miners.",
+    desc: "BHP and labour hire firms allegedly begin systematically classifying coal miners as 'casuals' in a manner that workers contend breaches the Black Coal Award, which prohibits casual employment of coal miners.",
     sources: [
       { label: "Michael West Media", url: "https://michaelwest.com.au/fair-works-commission-rules-against-bhp-but-ignore-wage-theft/" },
       { label: "Black Coal Wage Swindle", url: "https://michaelwest.com.au/black-hole-cfmeu-governments-bhp-black-coal-giants-collude-in-2-5b-worker-wage-swindle/" },
@@ -24,7 +24,7 @@ const timelineEvents = [
   {
     year: "Dec 2015",
     title: "Simon Turner's Injury",
-    desc: "Turner breaks his back at BHP's Mt Arthur coal mine. He is told not to report it. BHP sacks him two days later, marking his separation as a 'resignation'. He discovers he was classified as an office worker and paid a fraction of his entitlements.",
+    desc: "Turner breaks his back at BHP's Mt Arthur coal mine. He alleges he was told not to report it. His employment was terminated two days later, with his separation recorded as a 'resignation'. He discovers he was classified as an office worker and paid a fraction of his expected entitlements.",
     sources: [
       { label: "Same Job Lame Pay", url: "https://michaelwest.com.au/same-job-lame-pay-bhp-and-the-black-coal-wage-swindle/" },
       { label: "Judge Takes Pity on BHP", url: "https://michaelwest.com.au/judge-takes-pity-on-bhp-in-case-against-injured-coal-miner/" },
@@ -33,7 +33,7 @@ const timelineEvents = [
   {
     year: "2017",
     title: "Altobelli Ruling: True Employer Identified",
-    desc: "Judge Altobelli rules in the Federal Court that Chandler Macleod (ABN 052) — not Ready Workforce — was the true employer. This ruling is later concealed from subsequent proceedings.",
+    desc: "Judge Altobelli rules in the Federal Court that Chandler Macleod (ABN 052) — not Ready Workforce — was the true employer. This ruling was not submitted in subsequent proceedings.",
     sources: [
       { label: "BHP Buries Wage Theft", url: "https://michaelwest.com.au/bhp-buries-wage-theft-as-fair-work-commission-showdown-kicks-off/" },
       { label: "CFMEU on LinkedIn", url: "https://www.linkedin.com/posts/mining-and-energy-union_breaking-activity-7371436989210038272-jIkB" },
@@ -59,7 +59,7 @@ const timelineEvents = [
   {
     year: "Jan 2025",
     title: "Same Job Same Pay Hearings Begin",
-    desc: "The Fair Work Commission begins hearing BHP's challenge to the Same Job Same Pay laws. BHP deploys five major law firms. Documents are suppressed from public view.",
+    desc: "The Fair Work Commission begins hearing BHP's challenge to the Same Job Same Pay laws. BHP engages five major law firms. Certain documents are subject to confidentiality orders.",
     sources: [
       { label: "Michael West Media", url: "https://michaelwest.com.au/fair-works-commission-rules-against-bhp-but-ignore-wage-theft/" },
     ],
@@ -67,7 +67,7 @@ const timelineEvents = [
   {
     year: "Jul 2025",
     title: "Landmark FWC Ruling",
-    desc: "The FWC orders BHP to pay 2,200 Queensland miners ~$30,000 more annually — confirming the labour hire model was a rort. But the laws are not retrospective. Past victims remain uncompensated.",
+    desc: "The FWC orders BHP to pay 2,200 Queensland miners ~$30,000 more annually — finding that labour hire workers were being paid significantly less than direct employees. But the laws are not retrospective. Past affected workers remain without remedy.",
     sources: [
       { label: "FWC Rules Against BHP", url: "https://michaelwest.com.au/fair-works-commission-rules-against-bhp-but-ignore-wage-theft/" },
     ],
@@ -75,7 +75,7 @@ const timelineEvents = [
   {
     year: "2025–Now",
     title: "Turner Returns to Court",
-    desc: "Simon Turner, self-represented, takes on BHP in the Federal Court. BHP obtains suppression orders to hide evidence. The fight for historical justice continues.",
+    desc: "Simon Turner, self-represented, takes on BHP in the Federal Court. BHP has obtained suppression orders in the proceedings. The fight for historical justice continues.",
     isActive: true,
     sources: [
       { label: "Judge Takes Pity on BHP", url: "https://michaelwest.com.au/judge-takes-pity-on-bhp-in-case-against-injured-coal-miner/" },

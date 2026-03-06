@@ -4,16 +4,22 @@ import Timeline from "@/components/Timeline";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
-  title: "The Case Against BHP — Evidence & Timeline | Unhappy Banking",
+  title: "The Case Against BHP — Allegations & Timeline",
   description:
-    "A decade of systematic fraud: timeline of BHP's illegal casual classification of coal miners and the fight for justice.",
+    "A decade of alleged systematic underpayment: timeline of BHP's casual classification of coal miners and the fight for justice.",
+  alternates: { canonical: "/cases" },
+  openGraph: {
+    title: "The Case Against BHP — Allegations & Timeline",
+    description:
+      "A decade of alleged systematic underpayment: timeline of BHP's casual classification of coal miners and the fight for justice.",
+  },
 };
 
 const evidenceCards = [
   {
     icon: Scale,
     title: "The Labour Hire Rort",
-    text: "BHP and its labour hire associates — Chandler Macleod, WorkPac, and others — systematically classified coal miners as 'casuals' through shell structures, despite full-time rosters set 12 months in advance. Under the Black Coal Award, casual employment of coal miners is illegal.",
+    text: "It is alleged that BHP and its labour hire associates — Chandler Macleod, WorkPac, and others — systematically classified coal miners as 'casuals' through complex corporate structures, despite full-time rosters set 12 months in advance. Under the Black Coal Award, casual employment of coal miners is prohibited.",
   },
   {
     icon: Banknote,
@@ -23,12 +29,12 @@ const evidenceCards = [
   {
     icon: HeartPulse,
     title: "Injured & Abandoned",
-    text: "Lead claimant Simon Turner broke his back at Mt Arthur coal mine in December 2015. He was told not to report it. His employer sacked him two days later, falsified his separation certificate as a 'resignation', and classified him as an office worker for insurance purposes.",
+    text: "Lead claimant Simon Turner broke his back at Mt Arthur coal mine in December 2015. He alleges he was told not to report it. His employer terminated him two days later. His separation certificate was recorded as a 'resignation', and he was classified as an office worker for insurance purposes.",
   },
   {
     icon: ShieldOff,
     title: "Suppression & Cover-Up",
-    text: "BHP has obtained suppression orders to hide evidence. Court transcripts cost nearly $2,000. Five blue-chip law firms have been deployed to bury public visibility of the contracts that expose the fraud. Documents requested by the Fair Work Commission have been kept secret.",
+    text: "BHP has obtained suppression orders limiting public access to evidence. Court transcripts cost nearly $2,000. Five major law firms have been engaged to manage litigation. Documents requested by the Fair Work Commission have not been made publicly available.",
   },
 ];
 
@@ -44,7 +50,7 @@ export default function CasesPage() {
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold text-white mt-4">
-            A Decade of <span className="text-amber">Systematic Fraud</span>
+            A Decade of <span className="text-amber">Alleged Underpayment</span>
           </h1>
         </ScrollReveal>
       </section>
@@ -65,7 +71,7 @@ export default function CasesPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <h2 className="font-serif text-3xl font-bold text-primary text-center mb-4">
-              The Evidence
+              Key Claims
             </h2>
             <div className="w-12 h-0.5 shimmer-line mx-auto mb-12 rounded-full" />
           </ScrollReveal>

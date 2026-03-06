@@ -3,9 +3,15 @@ import RegistrationForm from "@/components/RegistrationForm";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
-  title: "Register as a Victim | BHP Wage Theft Case | Unhappy Banking",
+  title: "Register as a Victim | BHP Wage Theft Case",
   description:
     "Register your interest if you were employed as a casual coal miner through labour hire at a BHP mine. Confidential and without obligation.",
+  alternates: { canonical: "/register" },
+  openGraph: {
+    title: "Register as a BHP Wage Theft Victim",
+    description:
+      "Were you a casual coal miner at a BHP mine? Register your interest. Confidential and without obligation.",
+  },
 };
 
 export default function RegisterPage() {

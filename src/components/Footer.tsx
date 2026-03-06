@@ -60,9 +60,11 @@ export default function Footer() {
             Disclaimer: The claims and allegations presented on this website are
             based on publicly available court documents, Fair Work Commission
             proceedings, parliamentary records, and independent journalism. BHP
-            denies all allegations. All parties are entitled to the presumption
-            of innocence until findings are made by a court of competent
-            jurisdiction.
+            and all named parties deny the allegations made against them. All
+            parties are entitled to the presumption of innocence until findings
+            are made by a court of competent jurisdiction. This website
+            presents the position of affected workers and does not purport to
+            state proven facts where matters remain in dispute.
           </p>
         </div>
       </div>

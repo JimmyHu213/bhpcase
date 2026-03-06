@@ -2,9 +2,15 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
-  title: "About Nationlink Solutions & Unhappy Banking | BHP Victims",
+  title: "About Nationlink Solutions & Unhappy Banking",
   description:
-    "Specialist advocacy and advisory firm focused on empowering individuals wronged by corporate Australia.",
+    "Specialist advocacy and advisory firm focused on empowering individuals wronged by corporate Australia. 30+ years in financial services and advocacy.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Nationlink Solutions & Unhappy Banking",
+    description:
+      "Specialist advocacy and advisory firm focused on empowering individuals wronged by corporate Australia.",
+  },
 };
 
 export default function AboutPage() {
@@ -62,10 +68,10 @@ export default function AboutPage() {
                 campaigns that force corporate accountability.
               </p>
               <p className="text-slate-body leading-relaxed mb-4">
-                Our approach is built on a simple truth: the only thing
-                corporations like BHP fear more than a lawsuit is sustained,
-                well-documented public scrutiny of their conduct. Brand damage
-                changes behaviour. We make that happen.
+                Our approach is built on a simple truth: public accountability
+                and transparency are the most effective drivers of corporate
+                change. When the facts are documented and made visible,
+                companies are compelled to respond. That&apos;s our mission.
               </p>
             </div>
           </ScrollReveal>
@@ -111,7 +117,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
             "Strategic litigation coordination and evidence gathering",
-            "Media exposure campaigns to maximise brand damage pressure",
+            "Media exposure campaigns to maximise public awareness",
             "Victim registration and secure data room management",
             "Connection with experienced class action law firms",
             "Regulatory complaint coordination (FWC, ATO, ASIC)",

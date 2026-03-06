@@ -29,7 +29,7 @@ export default function Home() {
 
           <ScrollReveal delay={0.25}>
             <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-              Thousands of coal miners were illegally classified as casuals and
+              Thousands of coal miners were allegedly classified as casuals and
               systematically underpaid by BHP and its labour hire associates. The
               evidence is mounting. The reckoning is coming.
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
                   <StatCounter target={2.5} prefix="$" suffix="B" decimals={1} />
                 </div>
                 <p className="text-xs uppercase tracking-wider text-slate-400 mt-1">
-                  Estimated Wage Theft
+                  Estimated Underpayment
                 </p>
               </div>
               <div className="text-center">
@@ -75,7 +75,7 @@ export default function Home() {
                   <StatCounter target={10} suffix="+" />
                 </div>
                 <p className="text-xs uppercase tracking-wider text-slate-400 mt-1">
-                  Years of Systematic Fraud
+                  Years of Alleged Underpayment
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
               The Case Against BHP
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary mt-3">
-              Same Job. <span className="text-accent">Stolen Pay.</span>
+              Same Job. <span className="text-accent">Different Pay.</span>
             </h2>
           </ScrollReveal>
 
@@ -106,11 +106,12 @@ export default function Home() {
                   The Labour Hire Rort
                 </h3>
                 <p className="text-slate-body text-sm leading-relaxed">
-                  BHP and its labour hire associates — Chandler Macleod, WorkPac,
-                  and others — systematically classified coal miners as
-                  &apos;casuals&apos; through shell structures, despite full-time
-                  rosters set 12 months in advance. Under the Black Coal Award,
-                  casual employment of coal miners is illegal.
+                  It is alleged that BHP and its labour hire associates —
+                  Chandler Macleod, WorkPac, and others — systematically
+                  classified coal miners as &apos;casuals&apos; through complex
+                  corporate structures, despite full-time rosters set 12 months
+                  in advance. Under the Black Coal Award, casual employment of
+                  coal miners is prohibited.
                 </p>
               </div>
             </ScrollReveal>
@@ -144,10 +145,10 @@ export default function Home() {
                 </h3>
                 <p className="text-slate-body text-sm leading-relaxed">
                   Lead claimant Simon Turner broke his back at Mt Arthur coal mine
-                  in December 2015. He was told not to report it. His employer
-                  sacked him two days later, falsified his separation certificate
-                  as a &apos;resignation&apos;, and classified him as an office
-                  worker for insurance purposes.
+                  in December 2015. He alleges he was told not to report it. His
+                  employer terminated him two days later. His separation
+                  certificate was recorded as a &apos;resignation&apos;, and he
+                  was classified as an office worker for insurance purposes.
                 </p>
               </div>
             </ScrollReveal>
@@ -162,11 +163,11 @@ export default function Home() {
                   Suppression &amp; Cover-Up
                 </h3>
                 <p className="text-slate-body text-sm leading-relaxed">
-                  BHP has obtained suppression orders to hide evidence. Court
-                  transcripts cost nearly $2,000. Five blue-chip law firms have
-                  been deployed to bury public visibility of the contracts that
-                  expose the fraud. Documents requested by the Fair Work Commission
-                  have been kept secret.
+                  BHP has obtained suppression orders limiting public access to
+                  evidence. Court transcripts cost nearly $2,000. Five major law
+                  firms have been engaged to manage litigation. Documents
+                  requested by the Fair Work Commission have not been made
+                  publicly available.
                 </p>
               </div>
             </ScrollReveal>
@@ -188,8 +189,9 @@ export default function Home() {
                 <span className="font-semibold text-primary">
                   $30,000 more per year
                 </span>{" "}
-                under Same Job Same Pay laws — confirming the labour hire model was
-                a wage-cutting rort. BHP&apos;s compliance costs could reach{" "}
+                under Same Job Same Pay laws — finding that labour hire workers
+                were being paid significantly less than direct employees.
+                BHP&apos;s compliance costs could reach{" "}
                 <span className="font-semibold text-primary">
                   $1.3 billion annually
                 </span>
@@ -208,16 +210,16 @@ export default function Home() {
             <h2 className="font-serif text-3xl sm:text-4xl font-bold">
               <span className="text-amber">$250 Billion Company.</span>
               <br />
-              <span className="text-white">Zero Accountability.</span>
+              <span className="text-white">Still No Answers.</span>
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={0.15}>
             <p className="text-slate-300 max-w-2xl mx-auto mt-6 text-lg leading-relaxed">
-              BHP deploys armies of lawyers and suppression orders to hide its
-              labour hire fraud. They&apos;ve spent millions fighting Same Job Same
-              Pay while injured workers sleep on garage floors. The only language
-              BHP understands is reputational risk. Together, we speak that
-              language.
+              BHP has engaged multiple major law firms and obtained suppression
+              orders in proceedings related to its labour hire practices.
+              Meanwhile, affected workers continue to seek the entitlements
+              they believe they are owed. Public accountability and
+              transparency remain essential to achieving justice.
             </p>
           </ScrollReveal>
         </div>
