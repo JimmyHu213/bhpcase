@@ -41,7 +41,10 @@
 			"database_name": "bhpcase-registrations",
 			"database_id": "5eccc66f-d22e-4326-96aa-8874130a2d7b"
 		}
-	]
+	],
+	"vars": {
+		"ADMIN_NOTIFICATION_EMAIL": "info@unhappybanking.com.au"
+	}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
