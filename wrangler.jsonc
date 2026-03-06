@@ -10,6 +10,9 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "bhpcase",
 	"main": ".open-next/worker.js",
+	"build": {
+		"command": "npx opennextjs-cloudflare build"
+	},
 	"compatibility_date": "2026-03-01",
 	"compatibility_flags": [
 		"nodejs_compat",
