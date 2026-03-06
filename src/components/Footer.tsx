@@ -19,7 +19,15 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-3">
-              Nationlink Solutions Pty Ltd in association with Unhappy Banking
+              <a
+                href="https://www.nationlinksolutions.com.au/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                Nationlink Solutions Pty Ltd
+              </a>{" "}
+              in association with Unhappy Banking
               — advocating for victims of corporate misconduct since the GFC.
             </p>
             <p className="text-xs text-slate-500 leading-relaxed">
@@ -35,7 +43,12 @@ export default function Footer() {
               Contact
             </h4>
             <p className="text-sm text-slate-400 leading-loose">
-              geoff@nationlink.com.au
+              <a
+                href="mailto:geoff@nationlink.com.au"
+                className="hover:text-white transition-colors"
+              >
+                geoff@nationlink.com.au
+              </a>
               <br />
               Media enquiries welcome
               <br />

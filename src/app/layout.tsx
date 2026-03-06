@@ -92,7 +92,7 @@ export default function RootLayout({
                 "Specialist advocacy and advisory firm focused on empowering individuals wronged by corporate Australia. Leading the BHP wage theft victim registry.",
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "info@unhappybanking.com.au",
+                email: "geoff@nationlink.com.au",
                 contactType: "customer service",
               },
               founder: {

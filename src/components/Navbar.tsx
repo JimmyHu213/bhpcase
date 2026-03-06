@@ -35,6 +35,7 @@ export default function Navbar() {
             <Link href="/" className="text-sm font-medium text-slate-body hover:text-primary transition-colors">Home</Link>
             <Link href="/cases" className="text-sm font-medium text-slate-body hover:text-primary transition-colors">The Case</Link>
             <Link href="/about" className="text-sm font-medium text-slate-body hover:text-primary transition-colors">About Us</Link>
+            <Link href="/media" className="text-sm font-medium text-slate-body hover:text-primary transition-colors">Media</Link>
             <Link href="/register" className="text-sm font-semibold bg-accent hover:bg-accent-dark text-white px-5 py-2 rounded transition-colors">Register Now</Link>
           </div>
 
@@ -50,6 +51,7 @@ export default function Navbar() {
             <Link href="/" className="text-sm font-medium text-slate-body hover:text-primary" onClick={() => setMobileOpen(false)}>Home</Link>
             <Link href="/cases" className="text-sm font-medium text-slate-body hover:text-primary" onClick={() => setMobileOpen(false)}>The Case</Link>
             <Link href="/about" className="text-sm font-medium text-slate-body hover:text-primary" onClick={() => setMobileOpen(false)}>About Us</Link>
+            <Link href="/media" className="text-sm font-medium text-slate-body hover:text-primary" onClick={() => setMobileOpen(false)}>Media</Link>
             <Link href="/register" className="text-sm font-semibold bg-accent text-white px-5 py-2 rounded text-center" onClick={() => setMobileOpen(false)}>Register Now</Link>
           </div>
         )}

@@ -152,11 +152,19 @@ export default function AboutPage() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.15}>
-            <p className="text-slate-body leading-relaxed mb-4">
+            <p className="text-slate-body leading-relaxed mb-6">
               Under the leadership of Geoffrey Shannon as Leading Consultant,
               Nationlink brings decades of financial services, regulatory and
               corporate governance expertise to complex disputes.
             </p>
+            <a
+              href="https://www.nationlinksolutions.com.au/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:text-accent-dark text-sm font-semibold transition-colors"
+            >
+              Visit nationlinksolutions.com.au &rarr;
+            </a>
           </ScrollReveal>
         </div>
       </section>
