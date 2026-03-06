@@ -7,21 +7,25 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <a
+              href="https://www.unhappybanking.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 mb-4 hover:opacity-80 transition-opacity"
+            >
               <div className="w-2 h-2 bg-accent rotate-45" />
               <span className="font-serif font-bold text-sm tracking-wide">
                 UNHAPPY BANKING
               </span>
-            </div>
+            </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-3">
-              A Geoffrey Shannon initiative. Nationlink Solutions Pty Ltd in
-              association with Unhappy Banking — advocating for victims of
-              corporate misconduct since the GFC.
+              Nationlink Solutions Pty Ltd in association with Unhappy Banking
+              — advocating for victims of corporate misconduct since the GFC.
             </p>
             <p className="text-xs text-slate-500 leading-relaxed">
-              Director: Geoffrey Shannon
+              Geoffrey Shannon — Founder, Unhappy Banking
               <br />
-              Prism Global Group PLC (UK) | PZM Pty Ltd (AU) AFSL 518180
+              Leading Consultant, Nationlink Solutions
             </p>
           </div>
 

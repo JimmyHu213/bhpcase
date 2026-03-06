@@ -12,18 +12,23 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Brand */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.unhappybanking.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+            >
               <div className="w-2 h-2 bg-accent rotate-45" />
               <span className="font-serif font-bold text-primary text-sm tracking-wide">
                 UNHAPPY BANKING
               </span>
-            </div>
+            </a>
             <span className="text-border">|</span>
-            <span className="text-xs font-semibold text-slate-body tracking-widest uppercase">
+            <Link href="/" className="text-xs font-semibold text-slate-body tracking-widest uppercase hover:text-primary transition-colors">
               Nationlink
-            </span>
-          </Link>
+            </Link>
+          </div>
 
           {/* Desktop links */}
           <div className="hidden md:flex items-center gap-8">

@@ -30,50 +30,152 @@ export default function AboutPage() {
         </ScrollReveal>
       </section>
 
-      {/* ── Organization Profiles ── */}
-      <section className="py-20 sm:py-28 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Nationlink Solutions */}
+      {/* ── Unhappy Banking Profile ── */}
+      <section className="py-20 sm:py-28 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ScrollReveal>
+          <h2 className="font-serif text-2xl font-bold text-primary mb-6">
+            <a
+              href="https://www.unhappybanking.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors"
+            >
+              Unhappy Banking
+            </a>
+          </h2>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.05}>
+          <p className="text-slate-body leading-relaxed mb-4">
+            Founded by Geoff Shannon, Unhappy Banking has been at the forefront
+            of holding financial institutions and corporations accountable since
+            the GFC. The advocates behind Unhappy Banking know full well the
+            issues caused by financial distress. Geoff has been through it all,
+            including suffering from depression. Through all the adversity, he
+            has managed to turn it into positivity.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.1}>
+          <p className="text-slate-body leading-relaxed mb-4">
+            In his own battle against the biggest bank, Geoff caused the
+            bank&apos;s claims to be either struck out or amended 7 times over 5
+            years. This comes at a massive expense &mdash; the banks have deep,
+            deep pockets. In the end, Geoff faced off the bank&apos;s
+            high-priced lawyers and barristers as he represented himself for
+            over 20 days in the NSW Supreme Court. No lawyers or barristers
+            representing Geoff &mdash; just determination and first-hand
+            knowledge.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.15}>
+          <p className="text-slate-body leading-relaxed mb-4">
+            Through all the litigation Geoff has faced &mdash; mainly due to his
+            public stance against the bully banks for others &mdash; he has
+            continued to assist and provide service to anybody who has reached
+            out. This dedication has led to him being nominated for Australian
+            of the Year 3 times to date.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.2}>
+          <p className="text-slate-body leading-relaxed mb-4">
+            This is what makes Unhappy Banking different from anything else seen
+            in Australia. It is the first-hand experience in dealing with issues
+            when facing hard times. The team behind Unhappy Banking are in the
+            fight &mdash; they are bruised and battered but not beat. New skills
+            are being adopted on a daily basis, relationships are being built,
+            partners are being sought, and with all this, solutions are being
+            found.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.25}>
+          <p className="text-slate-body leading-relaxed mb-4">
+            In the last 3 years, over $300 million was saved in reduced or wiped
+            loans for mainly farmers and commercial borrowers. These bank clients
+            were caught up in the major banks&apos; cleansing of their commercial
+            loan books to assist with complying with Basel III banking
+            regulations.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.3}>
+          <p className="text-slate-body leading-relaxed mb-6 font-medium text-primary">
+            Importantly &mdash; you are NOT alone. Tell us your story.
+          </p>
+          <a
+            href="https://www.unhappybanking.com.au"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-dark text-sm font-semibold transition-colors"
+          >
+            Visit unhappybanking.com.au &rarr;
+          </a>
+        </ScrollReveal>
+      </section>
+
+      {/* ── Nationlink Solutions Profile ── */}
+      <section className="bg-light py-20 sm:py-28">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div>
-              <h2 className="font-serif text-2xl font-bold text-primary mb-4">
-                Nationlink Solutions Pty Ltd
-              </h2>
-              <p className="text-slate-body leading-relaxed mb-4">
-                A specialist advocacy and advisory firm focused on empowering
-                individuals and groups who have been wronged by corporate
-                Australia. We provide strategic litigation support, media campaign
-                management, evidence gathering, and victim coordination services.
-              </p>
-              <p className="text-slate-body leading-relaxed mb-4">
-                Under the direction of Geoffrey Shannon, Director of Prism Global
-                Group PLC (UK) and PZM Pty Ltd (Australia), AFSL 518180, we bring
-                decades of financial services, regulatory and corporate governance
-                expertise to complex disputes.
-              </p>
-            </div>
+            <h2 className="font-serif text-2xl font-bold text-primary mb-6">
+              Nationlink Solutions Pty Ltd
+            </h2>
           </ScrollReveal>
 
-          {/* Unhappy Banking */}
+          <ScrollReveal delay={0.05}>
+            <p className="text-slate-body leading-relaxed mb-4">
+              A specialist advocacy and advisory firm focused on empowering
+              individuals and groups who have been wronged by corporate
+              Australia. We provide strategic litigation support, media campaign
+              management, evidence gathering, and victim coordination services.
+            </p>
+          </ScrollReveal>
+
           <ScrollReveal delay={0.1}>
-            <div>
-              <h2 className="font-serif text-2xl font-bold text-primary mb-4">
-                Unhappy Banking
-              </h2>
-              <p className="text-slate-body leading-relaxed mb-4">
-                Founded by Geoff Shannon as a bank victim advocacy platform,
-                Unhappy Banking has been at the forefront of holding financial
-                institutions and corporations accountable since the GFC. With a
-                proven track record in litigation strategy and media exposure
-                campaigns that force corporate accountability.
-              </p>
-              <p className="text-slate-body leading-relaxed mb-4">
-                Our approach is built on a simple truth: public accountability
-                and transparency are the most effective drivers of corporate
-                change. When the facts are documented and made visible,
-                companies are compelled to respond. That&apos;s our mission.
-              </p>
-            </div>
+            <p className="text-slate-body leading-relaxed mb-4">
+              Under the leadership of Geoffrey Shannon as Leading Consultant,
+              Nationlink brings decades of financial services, regulatory and
+              corporate governance expertise to complex disputes.
+            </p>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ── Geoff Shannon Profile ── */}
+      <section className="py-20 sm:py-28">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <h2 className="font-serif text-2xl font-bold text-primary mb-6">
+              Geoffrey Shannon
+            </h2>
+            <p className="text-accent text-xs uppercase tracking-widest font-semibold mb-6">
+              Founder, Unhappy Banking &bull; Leading Consultant, Nationlink
+              Solutions
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.05}>
+            <p className="text-slate-body leading-relaxed mb-4">
+              Geoff&apos;s advocacy comes from first-hand experience. Having
+              faced the full weight of major bank litigation personally, he
+              understands what ordinary Australians go through when they take on
+              institutions with unlimited legal budgets. His track record
+              speaks for itself &mdash; 7 strike-outs or amendments forced
+              against one of Australia&apos;s big four banks, 20+ days of
+              self-representation in the NSW Supreme Court, and 3 Australian of
+              the Year nominations for his service to others.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.1}>
+            <p className="text-slate-body leading-relaxed">
+              All replies and guidance come from first-hand experience &mdash;
+              not something learned at a normal university. The team have learnt
+              their skills from the school of hard knocks.
+            </p>
           </ScrollReveal>
         </div>
       </section>
@@ -89,8 +191,9 @@ export default function AboutPage() {
           <div className="flex justify-center gap-12 sm:gap-20 flex-wrap">
             {[
               { value: "30+", label: "Years in Financial Services & Advocacy" },
-              { value: "$100M+", label: "Annual Trade Exchange Volume (1990\u20132008)" },
-              { value: "Complete", label: "Vindication in CBA Legal Battle" },
+              { value: "$300M+", label: "Saved for Farmers & Borrowers" },
+              { value: "3x", label: "Australian of the Year Nominations" },
+              { value: "20+", label: "Days Self-Represented in Supreme Court" },
             ].map((stat, index) => (
               <ScrollReveal key={stat.label} delay={index * 0.1}>
                 <div className="text-center">

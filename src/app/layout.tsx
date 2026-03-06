@@ -98,6 +98,7 @@ export default function RootLayout({
               founder: {
                 "@type": "Person",
                 name: "Geoffrey Shannon",
+                jobTitle: "Founder, Unhappy Banking; Leading Consultant, Nationlink Solutions",
               },
             }),
           }}
