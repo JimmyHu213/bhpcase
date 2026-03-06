@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Scale, Banknote, HeartPulse, ShieldOff } from "lucide-react";
 import Timeline from "@/components/Timeline";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
   title: "The Case Against BHP — Evidence & Timeline | Unhappy Banking",
@@ -35,61 +36,79 @@ export default function CasesPage() {
   return (
     <>
       {/* ── Header Section ── */}
-      <section className="bg-primary py-20 sm:py-28 text-center px-6">
-        <p className="text-accent text-xs uppercase tracking-widest">
-          Evidence Trail
-        </p>
-        <h1 className="font-serif text-3xl sm:text-4xl font-bold text-white mt-4">
-          A Decade of <span className="text-amber">Systematic Fraud</span>
-        </h1>
+      <section className="bg-primary py-20 sm:py-28 text-center px-6 section-glow">
+        <ScrollReveal>
+          <p className="text-accent text-xs uppercase tracking-widest">
+            Evidence Trail
+          </p>
+        </ScrollReveal>
+        <ScrollReveal delay={0.1}>
+          <h1 className="font-serif text-3xl sm:text-4xl font-bold text-white mt-4">
+            A Decade of <span className="text-amber">Systematic Fraud</span>
+          </h1>
+        </ScrollReveal>
       </section>
 
       {/* ── Timeline Section ── */}
       <section className="py-20 sm:py-28 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ScrollReveal>
+          <h2 className="font-serif text-2xl font-bold text-primary text-center mb-14">
+            Timeline of Events
+          </h2>
+          <div className="w-12 h-0.5 shimmer-line mx-auto mb-14 rounded-full" />
+        </ScrollReveal>
         <Timeline />
       </section>
 
       {/* ── Evidence Deep Dive ── */}
       <section className="bg-light py-20 sm:py-28">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-serif text-3xl font-bold text-primary text-center mb-12">
-            The Evidence
-          </h2>
+          <ScrollReveal>
+            <h2 className="font-serif text-3xl font-bold text-primary text-center mb-4">
+              The Evidence
+            </h2>
+            <div className="w-12 h-0.5 shimmer-line mx-auto mb-12 rounded-full" />
+          </ScrollReveal>
 
-          {evidenceCards.map((card) => {
-            const Icon = card.icon;
-            return (
-              <div
-                key={card.title}
-                className="bg-white border border-border rounded-lg p-8 mb-6"
-              >
-                <Icon className="text-accent mb-4" size={28} />
-                <h3 className="font-serif text-lg font-bold text-primary mb-3">
-                  {card.title}
-                </h3>
-                <p className="text-slate-body text-sm leading-relaxed">
-                  {card.text}
-                </p>
-              </div>
-            );
-          })}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {evidenceCards.map((card, index) => {
+              const Icon = card.icon;
+              return (
+                <ScrollReveal key={card.title} delay={index * 0.1}>
+                  <div className="bg-white border border-border rounded-lg p-8 card-interactive h-full">
+                    <div className="card-icon inline-block">
+                      <Icon className="text-accent mb-4" size={28} />
+                    </div>
+                    <h3 className="font-serif text-lg font-bold text-primary mb-3">
+                      {card.title}
+                    </h3>
+                    <p className="text-slate-body text-sm leading-relaxed">
+                      {card.text}
+                    </p>
+                  </div>
+                </ScrollReveal>
+              );
+            })}
+          </div>
         </div>
       </section>
 
       {/* ── CTA Section ── */}
       <section className="py-20 sm:py-28 text-center px-6">
-        <h2 className="font-serif text-3xl font-bold text-primary">
-          Join the Fight for Justice
-        </h2>
-        <p className="text-slate-body mt-4">
-          Register your interest and help hold BHP accountable.
-        </p>
-        <Link
-          href="/register"
-          className="bg-accent text-white px-8 py-4 rounded font-semibold inline-block mt-8 hover:bg-accent-dark transition-colors"
-        >
-          Register as a Victim &rarr;
-        </Link>
+        <ScrollReveal>
+          <h2 className="font-serif text-3xl font-bold text-primary">
+            Join the Fight for Justice
+          </h2>
+          <p className="text-slate-body mt-4">
+            Register your interest and help hold BHP accountable.
+          </p>
+          <Link
+            href="/register"
+            className="bg-accent text-white px-8 py-4 rounded font-semibold inline-block mt-8 hover:bg-accent-dark transition-all hover:shadow-lg hover:shadow-accent/20"
+          >
+            Register as a Victim &rarr;
+          </Link>
+        </ScrollReveal>
       </section>
     </>
   );

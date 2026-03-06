@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+
 const timelineEvents = [
   {
     year: "2010+",
@@ -43,30 +47,64 @@ const timelineEvents = [
     year: "2025–Now",
     title: "Turner Returns to Court",
     desc: "Simon Turner, self-represented, takes on BHP in the Federal Court. BHP obtains suppression orders to hide evidence. The fight for historical justice continues.",
+    isActive: true,
   },
 ];
 
 export default function Timeline() {
+  const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const lineRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    itemRefs.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="relative">
       {/* Vertical line — left on mobile, center on desktop */}
-      <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-border" />
+      <div
+        ref={lineRef}
+        className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-border"
+      />
 
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-14">
         {timelineEvents.map((event, index) => {
           const isEven = index % 2 === 0;
+          const isActive = "isActive" in event && event.isActive;
 
           return (
             <div
               key={event.year}
-              className={`relative flex items-start ${
-                isEven
-                  ? "md:flex-row-reverse"
-                  : "md:flex-row"
+              ref={(el) => { itemRefs.current[index] = el; }}
+              className={`reveal relative flex items-start ${
+                isEven ? "md:flex-row-reverse" : "md:flex-row"
               }`}
+              style={{ transitionDelay: `${index * 0.06}s` }}
             >
               {/* Dot on the line */}
-              <div className="absolute left-4 md:left-1/2 top-2 w-3 h-3 rounded-full bg-accent border-2 border-white -translate-x-1/2 z-10" />
+              <div
+                className={`absolute left-4 md:left-1/2 top-2 w-3.5 h-3.5 rounded-full border-2 border-white -translate-x-1/2 z-10 ${
+                  isActive
+                    ? "bg-amber timeline-dot"
+                    : "bg-accent"
+                }`}
+              />
 
               {/* Spacer for the opposite side (desktop only) */}
               <div className="hidden md:block md:w-1/2" />
@@ -77,9 +115,27 @@ export default function Timeline() {
                   isEven ? "md:pr-10" : "md:pl-10"
                 }`}
               >
-                <div className="bg-white border border-border rounded-lg p-6 shadow-sm max-w-md">
-                  <p className="font-serif text-sm font-bold text-accent">
+                <div
+                  className={`bg-white border rounded-lg p-6 shadow-sm max-w-md card-interactive ${
+                    isActive
+                      ? "border-amber/40 shadow-amber/10"
+                      : "border-border"
+                  }`}
+                >
+                  <p
+                    className={`font-serif text-sm font-bold ${
+                      isActive ? "text-amber" : "text-accent"
+                    }`}
+                  >
                     {event.year}
+                    {isActive && (
+                      <span className="inline-flex items-center ml-2">
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber opacity-75" />
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-amber" />
+                        </span>
+                      </span>
+                    )}
                   </p>
                   <h3 className="font-serif text-base font-bold text-primary mt-1">
                     {event.title}
