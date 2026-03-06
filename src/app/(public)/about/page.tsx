@@ -127,14 +127,24 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.05}>
             <p className="text-slate-body leading-relaxed mb-4">
-              A specialist advocacy and advisory firm focused on empowering
-              individuals and groups who have been wronged by corporate
-              Australia. We provide strategic litigation support, media campaign
-              management, evidence gathering, and victim coordination services.
+              Nationlink Solutions are passionate about standing up for everyday
+              people being treated poorly by Australia&apos;s banks, lenders
+              and/or creditors which may instigate possession of your property
+              and assets. We support you to help you fight for your right! If
+              you have a lending or creditor issue please make contact with us
+              to see how we may be able to assist.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
+            <p className="text-slate-body leading-relaxed mb-4">
+              It is possible that both parties may choose to walk away happy due
+              to the excellent negotiation and mediation skills at Nationlink
+              Solutions. We aim to find the best solution possible!
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.15}>
             <p className="text-slate-body leading-relaxed mb-4">
               Under the leadership of Geoffrey Shannon as Leading Consultant,
               Nationlink brings decades of financial services, regulatory and
@@ -159,18 +169,29 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.05}>
             <p className="text-slate-body leading-relaxed mb-4">
-              Geoff&apos;s advocacy comes from first-hand experience. Having
-              faced the full weight of major bank litigation personally, he
-              understands what ordinary Australians go through when they take on
-              institutions with unlimited legal budgets. His track record
-              speaks for itself &mdash; 7 strike-outs or amendments forced
-              against one of Australia&apos;s big four banks, 20+ days of
-              self-representation in the NSW Supreme Court, and 3 Australian of
-              the Year nominations for his service to others.
+              Geoff&apos;s advocacy comes from first-hand experience. In his
+              own battle against the Commonwealth Bank of Australia (CBA), he
+              caused the bank&apos;s claims to be either struck out or amended
+              7 times over 5 years. The banks have deep, deep pockets &mdash;
+              but Geoff faced off against CBA&apos;s high-priced lawyers and
+              barristers as he represented himself for over 20 days in the NSW
+              Supreme Court. No lawyers or barristers representing him &mdash;
+              just determination and first-hand knowledge.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>
+            <p className="text-slate-body leading-relaxed mb-4">
+              Through all the litigation Geoff has faced &mdash; mainly due to
+              his public stance against the banks for others &mdash; he has
+              continued to assist anyone who reached out. This dedication has
+              led to him being nominated for Australian of the Year 3 times to
+              date. Whilst Geoff was and still is up against the CBA, he
+              continues to assist others in need.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.15}>
             <p className="text-slate-body leading-relaxed">
               All replies and guidance come from first-hand experience &mdash;
               not something learned at a normal university. The team have learnt

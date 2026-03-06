@@ -157,17 +157,21 @@ export default function Timeline() {
                 >
                   {/* Source links — top right */}
                   {event.sources && event.sources.length > 0 && (
-                    <div className="absolute top-4 right-4 flex gap-1.5">
+                    <div className="absolute top-4 right-4 flex gap-2">
                       {event.sources.map((source) => (
                         <a
                           key={source.url}
                           href={source.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          title={source.label}
-                          className="text-slate-300 hover:text-accent transition-colors"
+                          className="relative group/link text-slate-300 hover:text-accent transition-colors p-1 -m-1"
                         >
-                          <ExternalLink size={14} />
+                          <ExternalLink size={18} />
+                          {/* Tooltip */}
+                          <span className="pointer-events-none absolute bottom-full right-0 mb-2 whitespace-nowrap rounded bg-primary px-3 py-1.5 text-xs text-white opacity-0 group-hover/link:opacity-100 transition-opacity shadow-lg z-20">
+                            {source.label}
+                            <span className="absolute top-full right-3 -mt-px border-4 border-transparent border-t-primary" />
+                          </span>
                         </a>
                       ))}
                     </div>
